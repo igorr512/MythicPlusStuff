@@ -20,7 +20,8 @@ object_stuff = MythicPlusStatistics(clientid,clientpass)
 
 a_file = open("data.pkl","rb")
 c = pickle.load(a_file)
-#object_stuff.get_teams_from_guild_only(c)
+object_stuff.get_teams_from_guild_only(c)
+#temp check
 print ("x")
 
 
